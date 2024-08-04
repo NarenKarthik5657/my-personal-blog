@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #ffd6ff;
+    color: #cb8afa;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    list-style: none;
+}
+ nav ul li{
+    display: inline;
+    padding: 10px;
+}
+nav ul li a{
+    color: #9d7efc;
+    text-decoration: none;
+}
+
+.main{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:  0px;
+    flex-wrap: wrap;
+    background-color: #b8c0ff;
+    
+}
+.article{
+    width: 350px;
+    height:250px;
+    background-color: grey;
+    border-radius: 8px;
+    box-shadow: 0 0 10px black;
+    margin: 20px;
+    background-color: #aac3fe;
+}
+footer {
+    height: 50px;
+    background-color: #ffd6ff;
+    color:#9d7efc;
+    padding: 10px;
+    text-align: center;
+    
+}
+@media (max-width: 768px) {
+    header {
+        font-size: 18px;
+    }
+
+    article {
+        padding: 15px;
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+/* Smartphones (portrait and landscape) */
+@media (max-width: 480px) {
+    header {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .article {
+        padding: 10px;
+        margin: 5px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 5px;
+    }
+}
